@@ -1,0 +1,40 @@
+.btn-in {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(238, 5, 5, 0.94);
+    alignment: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    border-radius: 25px;
+    color: cornsilk;
+    font-family: Arial, Serif;
+    border-width: 0;
+}
+
+.div-cs{
+    background: url("./transparent.png") no-repeat center;
+    height: 800px;
+    width: 100%;
+    /*margin-top: 100px;*/
+}
+.btn-out{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(238, 5, 5, 0.94);
+    alignment: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    border-radius: 25px;
+    font-family: Arial, Serif;    border-color: transparent;
+    color: cornsilk;
+    border-width: 0;
+}
+.btn-in:focus{
+    border-width: 0;
+    outline: none;
+}
+
+.btn-out:focus{
+    border-width: 0;
+    outline: none;
+}
